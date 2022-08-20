@@ -139,8 +139,8 @@ PS C:\> C:\Users\SeuUsername\Downloads\mariadb-10.8.4-winx64\bin
 Em seguida usa esse comando para inicializar MariaDB
 
 ```shell
-PS C:\> .\mysqld.exe --port 3307
+PS C:\Users\SeuUsername\Downloads\mariadb-10.8.4-winx64\bin> .\mysqld.exe --port 3307
+```
 
 No BeaverDB você inicializa o MariaDB e põe o port para '3307', 
 assim como no comando do PowerShell
-```
