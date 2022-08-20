@@ -124,3 +124,23 @@ class Poll(Base):
 ## Updating data
 
 ## Updating data in bulk
+
+## Iniciando Banco de Dados com MariaDB e PowerShell
+
+Baixe a versão zip do MariaDB e extrai para Downloads
+
+Assim que fizer isso abra o PowerShell faça o seguinte comando
+para acessar a pasta bin 
+
+```shell
+PS C:\> C:\Users\SeuUsername\Downloads\mariadb-10.8.4-winx64\bin
+```
+
+Em seguida usa esse comando para inicializar MariaDB
+
+```shell
+PS C:\> .\mysqld.exe --port 3307
+
+No BeaverDB você inicializa o MariaDB e põe o port para '3307', 
+assim como no comando do PowerShell
+```
